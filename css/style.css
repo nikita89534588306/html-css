@@ -12,6 +12,10 @@ body{
     color: #000;
 }
 
-.fontBold{
-    font-weight: 800;
+header{
+    width: 100%;
+    padding: 10px 0;
+    float: left;
+    background: #F8F8F8;
+    box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
 }
