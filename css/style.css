@@ -19,3 +19,8 @@ header{
     background: #F8F8F8;
     box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
 }
+
+header .header-container{
+    width: 900px;
+    margin: 0 auto;
+}
