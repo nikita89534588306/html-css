@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+a {text-decoration: none;}
+
 body{
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 16px;
@@ -21,6 +23,26 @@ header{
 }
 
 header .header-container{
-    width: 900px;
-    margin: 0 auto;
+    width: 60%;
+    margin: 0 20%;
 }
+
+.select-lang{
+    width: 100%;
+    text-align: right; 
+}
+
+.select-lang a{
+    font-size: 14px;
+    color: #c4c4c4;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.select-lang a.active,
+.select-lang a:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-left: 5px;
+}
+
