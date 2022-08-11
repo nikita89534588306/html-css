@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: green;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 16px;
+    background: white;
+    color: #000;
+}
+
+.fontBold{
+    font-weight: 800;
 }
