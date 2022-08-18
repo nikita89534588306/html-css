@@ -20,6 +20,10 @@ header{
     float: left;
     background: #F8F8F8;
     box-shadow: 2px 4px 6px rgba(194, 192, 192, 0.25);
+    /*добавляем что бы не плыли строчные конструкции*/
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 header .header-container{
@@ -45,4 +49,77 @@ header .header-container{
     border-bottom: 2px solid #000;
     margin-left: 5px;
 }
+
+header .header-container .header-main{
+    width: 100%;
+    margin-top: 20px;
+}
+
+header .header-container .header-main img {
+    height: 50px;
+    float: left;
+}
+
+#search{
+    float:left;
+    margin-left: 10px;
+    border: 0;
+    background: #ececec;
+    width: 360px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 12px;
+    /*Устанавливает величину отступа первой строки блока текста*/
+    text-indent: 20px;
+    /*В отличие от линии, задаваемой через border, свойство
+     outline не влияет на положение блока и его ширину*/
+    outline: none; 
+    margin-top: 5px;
+    margin-left: 20px; 
+}
+
+header .header-container .header-main a {
+    float: left;
+    color: #000;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+header .header-container .header-main a:hover{
+    color: #ccc;
+}
+
+header .header-container .header-main .btn{
+    cursor: pointer;
+    float: right;
+    margin-left: 20px;
+    width: 115px;
+    height: 40px;
+    font-weight: 800;
+    border: 2px solid black;
+    text-align: center;
+    /*Устанавливает интерлиньяж (межстрочный интервал) текста*/
+    line-height: 40px;
+}
+/* .btn.reg выбрать элемент с класом btn И C КЛАССОМ reg*/
+header .header-container .header-main .btn.reg{
+    width: 140px;
+}
+
+header .header-container .header-main .btn.auth{
+    width: 86px;
+}
+header .header-container .header-main .btn.reg,
+header .header-container .header-main .btn.auth:hover{
+    background: #000;
+    color: white;
+}
+
+header .header-container .header-main .btn.reg:hover{
+    background: white;
+    color: #000;
+}
+
+
 
