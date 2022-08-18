@@ -135,6 +135,11 @@ main .section h3{font-size: 24px;}
 main .section h3 span{height: 2px; display: inline-block; margin-right: 15px; margin-left: 40px; margin-bottom: 7px; width: 30px; background: #000;}
 
 
-
+main .section .img-block{
+    width: 25%;
+    margin: 20px 3%;
+    float: left;
+    
+}
 
 
