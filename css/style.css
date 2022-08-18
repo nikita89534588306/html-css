@@ -139,7 +139,8 @@ main .section .img-block{
     width: 25%;
     margin: 20px 3%;
     float: left;
-    
 }
+
+main .section .img-block img{width: 100%;}
 
 
