@@ -143,7 +143,7 @@ main .section .img-block img{width: 100%;}
 main .section .img-block h4{margin-top: 10px;margin-bottom: 5px;}
 main .section .img-block p{font-size: 14px; font-weight: 300;}
 
-main .section .img-block:hover .btn-play{display: block;}
+main .section .img-block:hover .btn-play{opacity: 1;}
 
 main .section .img-block .btn-play{
     background-color: #000; 
@@ -152,7 +152,8 @@ main .section .img-block .btn-play{
     position: absolute;
     right: -30px;
     bottom: 80px;
-    display: none;
+    opacity: 0;
+    transition: all .5s ease;
 } 
 
 footer{
