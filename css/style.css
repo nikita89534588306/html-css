@@ -24,10 +24,37 @@ header{
     padding-bottom: 20px;
 }
 
-header .header-container{
-    width: 60%;
-    margin: 0 20%;
+@media (min-width: 1571px) {
+    header .header-container{
+        width: 60%;
+        margin: 0 20%;
+    }
 }
+
+@media (max-width: 1571px) and (min-width: 1168px) {
+    header .header-container{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 1168px) {
+    header .header-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    header .header-container .header-main{
+        flex-direction: column;
+    }
+
+    header .header-container .header-main div,
+    header .header-container .header-main a,
+    header .header-container .header-main input{
+        margin-top: 20px;
+    }
+    
+}
+
 
 .select-lang{
     width: 100%;
