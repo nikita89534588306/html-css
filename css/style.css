@@ -51,17 +51,17 @@ header .header-container{
 }
 
 header .header-container .header-main{
-    width: 100%;
+    display: flex;
     margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .header-container .header-main img {
     height: 50px;
-    float: left;
 }
 
 #search{
-    float:left;
     margin-left: 10px;
     border: 0;
     background: #ececec;
@@ -75,15 +75,12 @@ header .header-container .header-main img {
      outline не влияет на положение блока и его ширину*/
     outline: none; 
     margin-top: 5px;
-    margin-left: 20px; 
+    /* margin-left: 20px; */
 }
 
-header .header-container .header-main a {
-    float: left;
+header .header-container .header-main a{
     color: #000;
     font-weight: 800;
-    margin-left: 50px;
-    margin-top: 15px;
 }
 
 header .header-container .header-main a:hover{
@@ -92,8 +89,6 @@ header .header-container .header-main a:hover{
 
 header .header-container .header-main .btn{
     cursor: pointer;
-    float: right;
-    margin-left: 20px;
     width: 115px;
     height: 40px;
     font-weight: 800;
